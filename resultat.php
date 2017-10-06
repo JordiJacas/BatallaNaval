@@ -12,6 +12,11 @@
 
 			echo "<table>";
 
+			for($r=1;$r<=$colum;$r++){
+
+				echo "<td class='number'>".$r."</td>";
+			}
+
 			for($i=1;$i<=$filas;$i++){
 				echo "<tr>";
 				for($j=1;$j<=$colum;$j++){
